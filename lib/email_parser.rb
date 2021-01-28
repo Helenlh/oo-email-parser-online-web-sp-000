@@ -12,7 +12,7 @@ class EmailAddressParser
      csv_address = emailaddress.split(", ")
      csv_address.uniq
    else
-     non_csv_address = emailaddress.split(" ")
+     non_csv_address = emailaddress.split(" ",)
      non_csv_address.uniq 
      end
    end 

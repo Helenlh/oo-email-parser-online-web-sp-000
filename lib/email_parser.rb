@@ -11,7 +11,7 @@ class EmailAddressParser
     if emailaddress.include? ","
      csv_address = emailaddress.split(", ")
      csv_address.uniq
-     elsif !emailaddress.include? ", "
+   else
      non_csv_address = emailaddress.split(" ")
      non_csv_address.uniq 
      end

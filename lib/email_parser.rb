@@ -17,5 +17,4 @@ class EmailAddressParser
      #non_csv_address.uniq 
      new_address.uniq 
      end
-   end 
 end 

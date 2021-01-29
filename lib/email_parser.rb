@@ -8,7 +8,7 @@ class EmailAddressParser
   end 
   
   def parse
-    if emailaddress.include? ","
+    #if emailaddress.include? ","
      new_address = emailaddress.split.(/, | /)
      #if new_address.include? ","
   #   csv_address.uniq

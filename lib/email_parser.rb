@@ -9,10 +9,10 @@ class EmailAddressParser
   
   def parse
     if emailaddress.include? ","
-     csv_address = emailaddress.split.(/, | /)
-     csv_address.uniq
-   else
-     non_csv_address = emailaddress.split(" ",)
+     new_address = emailaddress.split.(/, | /)
+  #   csv_address.uniq
+  # else
+  #   non_csv_address = emailaddress.split(" ",)
      non_csv_address.uniq 
      end
    end 
